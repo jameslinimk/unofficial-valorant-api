@@ -63,7 +63,7 @@ const VAPI = new _VAPI("my super secret token")
 
 #### Defined in
 
-[index.ts:135](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L135)
+[index.ts:135](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L135)
 
 ## Properties
 
@@ -93,7 +93,7 @@ You must call [initUtils](README.md#initutils) before using this!
 
 #### Defined in
 
-[index.ts:123](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L123)
+[index.ts:123](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L123)
 
 ___
 
@@ -140,7 +140,7 @@ You must call [initUtils](README.md#initutils) before using this!
 
 #### Defined in
 
-[index.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L117)
+[index.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L117)
 
 ## Methods
 
@@ -175,7 +175,7 @@ General information on a players profile
 
 #### Defined in
 
-[index.ts:536](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L536)
+[index.ts:536](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L536)
 
 ___
 
@@ -209,7 +209,7 @@ General information on a players profile
 
 #### Defined in
 
-[index.ts:553](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L553)
+[index.ts:553](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L553)
 
 ___
 
@@ -245,7 +245,7 @@ The image of the crosshair as a Buffer
 
 #### Defined in
 
-[index.ts:244](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L244)
+[index.ts:244](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L244)
 
 ___
 
@@ -263,7 +263,7 @@ Featured items in the current valorant store
 
 #### Defined in
 
-[index.ts:275](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L275)
+[index.ts:275](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L275)
 
 ___
 
@@ -296,7 +296,7 @@ Descending order of the highest ranked players. (Immortal and up)
 
 #### Defined in
 
-[index.ts:404](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L404)
+[index.ts:404](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L404)
 
 ___
 
@@ -336,7 +336,7 @@ Descending order of the highest ranked players. (Immortal and up)
 
 #### Defined in
 
-[index.ts:424](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L424)
+[index.ts:424](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L424)
 
 ___
 
@@ -372,7 +372,7 @@ Information about a players mmr/rank
 
 #### Defined in
 
-[index.ts:453](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L453)
+[index.ts:453](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L453)
 
 ___
 
@@ -407,7 +407,7 @@ Information about a players mmr/rank
 
 #### Defined in
 
-[index.ts:471](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L471)
+[index.ts:471](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L471)
 
 ___
 
@@ -434,7 +434,7 @@ List of rr changes (recent competitive games)
 
 #### Defined in
 
-[index.ts:370](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L370)
+[index.ts:370](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L370)
 
 ___
 
@@ -460,7 +460,7 @@ List of rr changes (recent competitive games)
 
 #### Defined in
 
-[index.ts:381](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L381)
+[index.ts:381](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L381)
 
 ___
 
@@ -485,7 +485,7 @@ Information about the match
 
 #### Defined in
 
-[index.ts:391](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L391)
+[index.ts:391](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L391)
 
 ___
 
@@ -528,7 +528,7 @@ Info about a players last 5 matches
 
 #### Defined in
 
-[index.ts:494](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L494)
+[index.ts:494](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L494)
 
 ___
 
@@ -570,7 +570,7 @@ Info about a players last 5 matches
 
 #### Defined in
 
-[index.ts:517](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L517)
+[index.ts:517](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L517)
 
 ___
 
@@ -588,7 +588,7 @@ List of skin prices
 
 #### Defined in
 
-[index.ts:284](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L284)
+[index.ts:284](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L284)
 
 ___
 
@@ -619,7 +619,7 @@ Information about the players rr history
 
 #### Defined in
 
-[index.ts:339](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L339)
+[index.ts:339](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L339)
 
 ___
 
@@ -650,7 +650,7 @@ Information about the players mmr
 
 #### Defined in
 
-[index.ts:355](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L355)
+[index.ts:355](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L355)
 
 ___
 
@@ -681,7 +681,7 @@ Information about the match
 
 #### Defined in
 
-[index.ts:307](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L307)
+[index.ts:307](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L307)
 
 ___
 
@@ -712,7 +712,7 @@ Information about the players match history
 
 #### Defined in
 
-[index.ts:323](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L323)
+[index.ts:323](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L323)
 
 ___
 
@@ -737,7 +737,7 @@ Info about undergoing maintenances and incidents in a region of valorant
 
 #### Defined in
 
-[index.ts:294](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L294)
+[index.ts:294](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L294)
 
 ___
 
@@ -760,7 +760,7 @@ Get all translations for every character, skin, map, ability, spray, charm, play
 
 #### Defined in
 
-[index.ts:435](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L435)
+[index.ts:435](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L435)
 
 ___
 
@@ -785,7 +785,7 @@ Information about a regions valorant
 
 #### Defined in
 
-[index.ts:266](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L266)
+[index.ts:266](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L266)
 
 ___
 
@@ -810,7 +810,7 @@ List of announcements from the valorant website
 
 #### Defined in
 
-[index.ts:256](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L256)
+[index.ts:256](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L256)
 
 ___
 
@@ -830,4 +830,4 @@ Must be called before using [rankImages](README.md#rankimages) and [mapImages](R
 
 #### Defined in
 
-[index.ts:142](https://github.com/jameslinimk/unofficial-valorant-api/blob/0ab3e91/package/src/index.ts#L142)
+[index.ts:142](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/index.ts#L142)
