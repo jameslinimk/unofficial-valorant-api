@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[types/v2-match.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/d5a8de3/package/src/types/v2-match.ts#L3)
+[types/v2-match.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v2-match.ts#L3)
