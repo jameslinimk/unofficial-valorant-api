@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[types/raw/match-details.ts:67](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L67)
+[types/raw/match-details.ts:67](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L67)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:68](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L68)
+[types/raw/match-details.ts:68](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L68)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:69](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L69)
+[types/raw/match-details.ts:69](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L69)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:70](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L70)
+[types/raw/match-details.ts:70](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L70)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:71](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L71)
+[types/raw/match-details.ts:71](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L71)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:72](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L72)
+[types/raw/match-details.ts:72](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L72)
 
 ___
 
@@ -82,4 +82,4 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:73](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L73)
+[types/raw/match-details.ts:73](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L73)

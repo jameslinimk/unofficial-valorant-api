@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[types/v2-store-featured.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v2-store-featured.ts#L7)
+[types/v2-store-featured.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v2-store-featured.ts#L7)

@@ -19,4 +19,4 @@
 
 #### Defined in
 
-[types/v2-mmr-history.ts:21](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v2-mmr-history.ts#L21)
+[types/v2-mmr-history.ts:21](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v2-mmr-history.ts#L21)

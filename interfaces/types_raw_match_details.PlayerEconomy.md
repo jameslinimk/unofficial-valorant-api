@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[types/raw/match-details.ts:218](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L218)
+[types/raw/match-details.ts:218](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L218)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:216](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L216)
+[types/raw/match-details.ts:216](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L216)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:219](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L219)
+[types/raw/match-details.ts:219](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L219)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:220](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L220)
+[types/raw/match-details.ts:220](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L220)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:215](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L215)
+[types/raw/match-details.ts:215](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L215)
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:217](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/raw/match-details.ts#L217)
+[types/raw/match-details.ts:217](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L217)

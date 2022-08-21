@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[types/v1-status.ts:2](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L2)
+[types/v1-status.ts:2](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v1-status.ts#L2)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L3)
+[types/v1-status.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v1-status.ts#L3)
