@@ -4,5 +4,5 @@
 
 ### Interfaces
 
-- [MMRResponse](../interfaces/types_v2_mmr.MMRResponse.md)
 - [SeasonMMR](../interfaces/types_v2_mmr.SeasonMMR.md)
+- [V2MMRResponse](../interfaces/types_v2_mmr.V2MMRResponse.md)

@@ -2,18 +2,48 @@
 
 ## Table of contents
 
+### Interfaces
+
+- [APIResponse](../interfaces/types_general.APIResponse.md)
+- [ErrorObject](../interfaces/types_general.ErrorObject.md)
+- [RateLimit](../interfaces/types_general.RateLimit.md)
+
 ### Type Aliases
 
+- [Acts](types_general.md#acts)
+- [BaseRank](types_general.md#baserank)
 - [Characters](types_general.md#characters)
+- [Episodes](types_general.md#episodes)
 - [Locale](types_general.md#locale)
 - [Mode](types_general.md#mode)
 - [Rank](types_general.md#rank)
 - [Region](types_general.md#region)
 - [Season](types_general.md#season)
+- [SubRank](types_general.md#subrank)
 - [ValorantMap](types_general.md#valorantmap)
 - [Weapon](types_general.md#weapon)
 
 ## Type Aliases
+
+### Acts
+
+Ƭ **Acts**: ``1`` \| ``2`` \| ``3``
+
+#### Defined in
+
+[types/general.ts:6](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L6)
+
+___
+
+### BaseRank
+
+Ƭ **BaseRank**: ``"Iron"`` \| ``"Bronze"`` \| ``"Silver"`` \| ``"Gold"`` \| ``"Platinum"`` \| ``"Diamond"`` \| ``"Ascendant"`` \| ``"Immortal"``
+
+#### Defined in
+
+[types/general.ts:1](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L1)
+
+___
 
 ### Characters
 
@@ -21,7 +51,17 @@
 
 #### Defined in
 
-[types/general.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L12)
+[types/general.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L12)
+
+___
+
+### Episodes
+
+Ƭ **Episodes**: `number`
+
+#### Defined in
+
+[types/general.ts:5](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L5)
 
 ___
 
@@ -31,7 +71,7 @@ ___
 
 #### Defined in
 
-[types/general.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L16)
+[types/general.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L16)
 
 ___
 
@@ -41,7 +81,7 @@ ___
 
 #### Defined in
 
-[types/general.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L9)
+[types/general.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L9)
 
 ___
 
@@ -51,7 +91,7 @@ ___
 
 #### Defined in
 
-[types/general.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L3)
+[types/general.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L3)
 
 ___
 
@@ -61,7 +101,7 @@ ___
 
 #### Defined in
 
-[types/general.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L11)
+[types/general.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L11)
 
 ___
 
@@ -71,7 +111,17 @@ ___
 
 #### Defined in
 
-[types/general.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L7)
+[types/general.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L7)
+
+___
+
+### SubRank
+
+Ƭ **SubRank**: ``"1"`` \| ``"2"`` \| ``"3"``
+
+#### Defined in
+
+[types/general.ts:2](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L2)
 
 ___
 
@@ -81,7 +131,7 @@ ___
 
 #### Defined in
 
-[types/general.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L10)
+[types/general.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L10)
 
 ___
 
@@ -91,4 +141,4 @@ ___
 
 #### Defined in
 
-[types/general.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/general.ts#L14)
+[types/general.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L14)

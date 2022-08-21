@@ -9,14 +9,14 @@
 
 ### Type Aliases
 
-- [WebsiteResponse](types_v1_website.md#websiteresponse)
+- [V1WebsiteResponse](types_v1_website.md#v1websiteresponse)
 
 ## Type Aliases
 
-### WebsiteResponse
+### V1WebsiteResponse
 
-Ƭ **WebsiteResponse**: [`Announcement`](../interfaces/types_v1_website.Announcement.md)[]
+Ƭ **V1WebsiteResponse**: [`Announcement`](../interfaces/types_v1_website.Announcement.md)[]
 
 #### Defined in
 
-[types/v1-website.ts:19](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-website.ts#L19)
+[types/v1-website.ts:19](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-website.ts#L19)

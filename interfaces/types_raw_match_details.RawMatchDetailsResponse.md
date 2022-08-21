@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types/raw/match-details.ts:251](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L251)
+[types/raw/match-details.ts:251](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L251)
 
 ___
 
@@ -33,37 +33,37 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:252](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L252)
+[types/raw/match-details.ts:252](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L252)
 
 ___
 
 ### kills
 
-• **kills**: `MatchKill`[]
+• **kills**: [`MatchKill`](types_raw_match_details.MatchKill.md)[]
 
 #### Defined in
 
-[types/raw/match-details.ts:255](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L255)
+[types/raw/match-details.ts:255](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L255)
 
 ___
 
 ### matchInfo
 
-• **matchInfo**: `MatchInfo`
+• **matchInfo**: [`MatchInfo`](types_raw_match_details.MatchInfo.md)
 
 #### Defined in
 
-[types/raw/match-details.ts:249](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L249)
+[types/raw/match-details.ts:249](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L249)
 
 ___
 
 ### players
 
-• **players**: `Player`[]
+• **players**: [`Player`](types_raw_match_details.Player.md)[]
 
 #### Defined in
 
-[types/raw/match-details.ts:250](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L250)
+[types/raw/match-details.ts:250](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L250)
 
 ___
 
@@ -73,24 +73,24 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:256](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L256)
+[types/raw/match-details.ts:256](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L256)
 
 ___
 
 ### roundResults
 
-• **roundResults**: `RoundResult`[]
+• **roundResults**: [`RoundResult`](types_raw_match_details.RoundResult.md)[]
 
 #### Defined in
 
-[types/raw/match-details.ts:254](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L254)
+[types/raw/match-details.ts:254](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L254)
 
 ___
 
 ### teams
 
-• **teams**: `Team`[]
+• **teams**: [`Team`](types_raw_match_details.Team.md)[]
 
 #### Defined in
 
-[types/raw/match-details.ts:253](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/match-details.ts#L253)
+[types/raw/match-details.ts:253](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/match-details.ts#L253)

@@ -7,7 +7,7 @@
 - [Act](../interfaces/types_v1_content.Act.md)
 - [Asset](../interfaces/types_v1_content.Asset.md)
 - [AssetWithPath](../interfaces/types_v1_content.AssetWithPath.md)
-- [ContentResponse](../interfaces/types_v1_content.ContentResponse.md)
+- [V1ContentResponse](../interfaces/types_v1_content.V1ContentResponse.md)
 
 ### Type Aliases
 
@@ -21,4 +21,4 @@
 
 #### Defined in
 
-[types/v1-content.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-content.ts#L3)
+[types/v1-content.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-content.ts#L3)

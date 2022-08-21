@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types/raw/mmr.ts:63](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L63)
+[types/raw/mmr.ts:63](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L63)
 
 ___
 
@@ -33,17 +33,17 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:62](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L62)
+[types/raw/mmr.ts:62](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L62)
 
 ___
 
 ### LatestCompetitiveUpdate
 
-• **LatestCompetitiveUpdate**: `LatestCompetitiveUpdate`
+• **LatestCompetitiveUpdate**: [`LatestCompetitiveUpdate`](types_raw_mmr.LatestCompetitiveUpdate.md)
 
 #### Defined in
 
-[types/raw/mmr.ts:61](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L61)
+[types/raw/mmr.ts:61](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L61)
 
 ___
 
@@ -53,17 +53,17 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:59](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L59)
+[types/raw/mmr.ts:59](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L59)
 
 ___
 
 ### QueueSkills
 
-• **QueueSkills**: `QueueSkills`
+• **QueueSkills**: [`QueueSkills`](types_raw_mmr.QueueSkills.md)
 
 #### Defined in
 
-[types/raw/mmr.ts:60](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L60)
+[types/raw/mmr.ts:60](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L60)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:58](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L58)
+[types/raw/mmr.ts:58](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L58)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:57](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L57)
+[types/raw/mmr.ts:57](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L57)
 
 ___
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:64](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/raw/mmr.ts#L64)
+[types/raw/mmr.ts:64](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/raw/mmr.ts#L64)

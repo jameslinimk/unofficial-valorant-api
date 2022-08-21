@@ -4,5 +4,5 @@
 
 ### Interfaces
 
-- [LeaderboardResponse](../interfaces/types_v2_leaderboard.LeaderboardResponse.md)
 - [Player](../interfaces/types_v2_leaderboard.Player.md)
+- [V2LeaderboardResponse](../interfaces/types_v2_leaderboard.V2LeaderboardResponse.md)

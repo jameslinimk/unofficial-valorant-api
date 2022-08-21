@@ -9,14 +9,14 @@
 
 ### Type Aliases
 
-- [MMRHistoryResponse](types_v2_mmr_history.md#mmrhistoryresponse)
+- [V2MMRHistoryResponse](types_v2_mmr_history.md#v2mmrhistoryresponse)
 
 ## Type Aliases
 
-### MMRHistoryResponse
+### V2MMRHistoryResponse
 
-Ƭ **MMRHistoryResponse**: [`MMRHistoryGame`](../interfaces/types_v2_mmr_history.MMRHistoryGame.md)[]
+Ƭ **V2MMRHistoryResponse**: [`MMRHistoryGame`](../interfaces/types_v2_mmr_history.MMRHistoryGame.md)[]
 
 #### Defined in
 
-[types/v2-mmr-history.ts:21](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v2-mmr-history.ts#L21)
+[types/v2-mmr-history.ts:21](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v2-mmr-history.ts#L21)

@@ -17,14 +17,14 @@
 
 #### Defined in
 
-[types/v1-status.ts:4](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L4)
+[types/v1-status.ts:2](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L2)
 
 ___
 
 ### locale
 
-• **locale**: [`Locale`](../modules/types_general.md#locale)
+• **locale**: `string`
 
 #### Defined in
 
-[types/v1-status.ts:5](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L5)
+[types/v1-status.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L3)

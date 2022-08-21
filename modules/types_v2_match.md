@@ -4,14 +4,14 @@
 
 ### Type Aliases
 
-- [MatchResponse](types_v2_match.md#matchresponse)
+- [V2MatchResponse](types_v2_match.md#v2matchresponse)
 
 ## Type Aliases
 
-### MatchResponse
+### V2MatchResponse
 
-Ƭ **MatchResponse**: [`Match`](../interfaces/types_v3_matches.Match.md)
+Ƭ **V2MatchResponse**: [`Match`](../interfaces/types_v3_matches.Match.md)
 
 #### Defined in
 
-[types/v2-match.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v2-match.ts#L3)
+[types/v2-match.ts:3](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v2-match.ts#L3)

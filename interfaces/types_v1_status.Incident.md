@@ -20,11 +20,11 @@
 
 ### archive\_at
 
-• **archive\_at**: `Date`
+• `Optional` **archive\_at**: `Date`
 
 #### Defined in
 
-[types/v1-status.ts:20](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L20)
+[types/v1-status.ts:18](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L18)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:19](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L19)
+[types/v1-status.ts:17](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L17)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:24](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L24)
+[types/v1-status.ts:22](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L22)
 
 ___
 
@@ -54,17 +54,17 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:27](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L27)
+[types/v1-status.ts:25](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L25)
 
 ___
 
 ### maintenance\_status
 
-• **maintenance\_status**: `string`
+• `Optional` **maintenance\_status**: `string`
 
 #### Defined in
 
-[types/v1-status.ts:26](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L26)
+[types/v1-status.ts:24](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L24)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:22](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L22)
+[types/v1-status.ts:20](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L20)
 
 ___
 
@@ -84,17 +84,17 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:25](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L25)
+[types/v1-status.ts:23](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L23)
 
 ___
 
 ### updated\_at
 
-• **updated\_at**: `Date`
+• `Optional` **updated\_at**: `Date`
 
 #### Defined in
 
-[types/v1-status.ts:23](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L23)
+[types/v1-status.ts:21](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L21)
 
 ___
 
@@ -104,4 +104,4 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:21](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-status.ts#L21)
+[types/v1-status.ts:19](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L19)

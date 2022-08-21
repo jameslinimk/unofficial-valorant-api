@@ -4,14 +4,14 @@
 
 ### Type Aliases
 
-- [CrosshairResponse](types_v1_crosshair.md#crosshairresponse)
+- [V1CrosshairResponse](types_v1_crosshair.md#v1crosshairresponse)
 
 ## Type Aliases
 
-### CrosshairResponse
+### V1CrosshairResponse
 
-Ƭ **CrosshairResponse**: `Buffer`
+Ƭ **V1CrosshairResponse**: `Buffer`
 
 #### Defined in
 
-[types/v1-crosshair.ts:1](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v1-crosshair.ts#L1)
+[types/v1-crosshair.ts:1](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-crosshair.ts#L1)

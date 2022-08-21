@@ -4,4 +4,5 @@
 
 ### Interfaces
 
+- [History](../interfaces/types_raw_match_history.History.md)
 - [RawMatchHistoryResponse](../interfaces/types_raw_match_history.RawMatchHistoryResponse.md)

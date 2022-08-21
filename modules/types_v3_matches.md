@@ -13,14 +13,32 @@
 
 ### Type Aliases
 
-- [MatchesResponse](types_v3_matches.md#matchesresponse)
+- [PlayerLocation](types_v3_matches.md#playerlocation)
+- [V3MatchesResponse](types_v3_matches.md#v3matchesresponse)
 
 ## Type Aliases
 
-### MatchesResponse
+### PlayerLocation
 
-Ƭ **MatchesResponse**: [`Match`](../interfaces/types_v3_matches.Match.md)[]
+Ƭ **PlayerLocation**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `x` | `number` |
+| `y` | `number` |
 
 #### Defined in
 
-[types/v3-matches.ts:232](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/types/v3-matches.ts#L232)
+[types/v3-matches.ts:78](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L78)
+
+___
+
+### V3MatchesResponse
+
+Ƭ **V3MatchesResponse**: [`Match`](../interfaces/types_v3_matches.Match.md)[]
+
+#### Defined in
+
+[types/v3-matches.ts:232](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L232)

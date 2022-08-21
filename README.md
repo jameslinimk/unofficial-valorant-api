@@ -17,10 +17,11 @@ Below is a list of all the properties of the API including all properties and me
 
 - [getAccount](README.md#getaccount)
 - [getAccountByPUUID](README.md#getaccountbypuuid)
+- [getAnnouncements](README.md#getannouncements)
+- [getContent](README.md#getcontent)
 - [getCrosshair](README.md#getcrosshair)
 - [getFeaturedItems](README.md#getfeatureditems)
 - [getLeaderboard](README.md#getleaderboard)
-- [getLeaderboardV1](README.md#getleaderboardv1)
 - [getMMR](README.md#getmmr)
 - [getMMRByPUUID](README.md#getmmrbypuuid)
 - [getMMRHistory](README.md#getmmrhistory)
@@ -30,6 +31,7 @@ Below is a list of all the properties of the API including all properties and me
 - [getMatchesByPUUID](README.md#getmatchesbypuuid)
 - [getOffers](README.md#getoffers)
 - [getRawCompetitiveUpdates](README.md#getrawcompetitiveupdates)
+- [getRawData](README.md#getrawdata)
 - [getRawMMR](README.md#getrawmmr)
 - [getRawMatchDetails](README.md#getrawmatchdetails)
 - [getRawMatchHistory](README.md#getrawmatchhistory)
@@ -57,13 +59,13 @@ const VAPI = new _VAPI("my super secret token")
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `token?` | `string` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `token?` | `string` | (optional) The token, if you have one. Get one from the Discord server ([https://discord.gg/wXNMnqzvAD](https://discord.gg/wXNMnqzvAD)) |
 
 #### Defined in
 
-[index.ts:135](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L135)
+[vapi.ts:48](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L48)
 
 ## Properties
 
@@ -71,7 +73,7 @@ const VAPI = new _VAPI("my super secret token")
 
 • `Optional` **mapImages**: `Object`
 
-Images for every ValorantMap
+Images for every Valorant map
 
 **`Remarks`**
 
@@ -93,7 +95,7 @@ You must call [initUtils](README.md#initutils) before using this!
 
 #### Defined in
 
-[index.ts:123](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L123)
+[vapi.ts:36](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L36)
 
 ___
 
@@ -140,13 +142,13 @@ You must call [initUtils](README.md#initutils) before using this!
 
 #### Defined in
 
-[index.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L117)
+[vapi.ts:30](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L30)
 
 ## Methods
 
 ### getAccount
 
-▸ **getAccount**(`__namedParameters`): `Promise`<`APIResponse`<[`AccountResponse`](./interfaces/types_v1_account.AccountResponse.md)\>\>
+▸ **getAccount**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1AccountResponse`](./interfaces/types_v1_account.V1AccountResponse.md)\>\>
 
 Get general information about a player from their Riot ID
 
@@ -169,19 +171,19 @@ Get general information about a player from their Riot ID
 
 #### Returns
 
-`Promise`<`APIResponse`<[`AccountResponse`](./interfaces/types_v1_account.AccountResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1AccountResponse`](./interfaces/types_v1_account.V1AccountResponse.md)\>\>
 
 General information on a players profile
 
 #### Defined in
 
-[index.ts:536](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L536)
+[vapi.ts:490](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L490)
 
 ___
 
 ### getAccountByPUUID
 
-▸ **getAccountByPUUID**(`__namedParameters`): `Promise`<`APIResponse`<[`AccountResponse`](./interfaces/types_v1_account.AccountResponse.md)\>\>
+▸ **getAccountByPUUID**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1AccountResponse`](./interfaces/types_v1_account.V1AccountResponse.md)\>\>
 
 Get general information about a player from their PUUID
 
@@ -203,19 +205,71 @@ Get general information about a player from their PUUID
 
 #### Returns
 
-`Promise`<`APIResponse`<[`AccountResponse`](./interfaces/types_v1_account.AccountResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1AccountResponse`](./interfaces/types_v1_account.V1AccountResponse.md)\>\>
 
 General information on a players profile
 
 #### Defined in
 
-[index.ts:553](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L553)
+[vapi.ts:507](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L507)
+
+___
+
+### getAnnouncements
+
+▸ **getAnnouncements**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1WebsiteResponse`](./modules/types_v1_website.md#v1websiteresponse)\>\>
+
+Get all announcements from the valorant website of a country
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `__namedParameters` | `Object` |
+| `__namedParameters.countryCode` | ``"en-us"`` \| ``"en-gb"`` \| ``"de-de"`` \| ``"es-es"`` \| ``"es-mx"`` \| ``"fr-fr"`` \| ``"it-it"`` \| ``"ja-jp"`` \| ``"ko-kr"`` \| ``"pt-br"`` \| ``"ru-ru"`` \| ``"tr-tr"`` \| ``"vi-vn"`` |
+
+#### Returns
+
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1WebsiteResponse`](./modules/types_v1_website.md#v1websiteresponse)\>\>
+
+List of announcements from the valorant website
+
+#### Defined in
+
+[vapi.ts:169](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L169)
+
+___
+
+### getContent
+
+▸ **getContent**(`__namedParameters?`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1ContentResponse`](./interfaces/types_v1_content.V1ContentResponse.md)\>\>
+
+Get all translations for every character, skin, map, ability, spray, charm, player card, player title, and more in the game
+
+**`Depreciated`**
+
+Use the new [getTranslations](README.md#gettranslations) instead
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `__namedParameters` | `Object` |
+| `__namedParameters.locale?` | [`Locale`](./modules/types_general.md#locale) |
+
+#### Returns
+
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1ContentResponse`](./interfaces/types_v1_content.V1ContentResponse.md)\>\>
+
+#### Defined in
+
+[vapi.ts:375](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L375)
 
 ___
 
 ### getCrosshair
 
-▸ **getCrosshair**(`__namedParameters`): `Promise`<`APIResponse`<`Buffer`\>\>
+▸ **getCrosshair**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<`Buffer`\>\>
 
 Get an image of a valorant crosshair by its code
 
@@ -239,70 +293,50 @@ writeFileSync("crosshair.png", crosshair.data)
 
 #### Returns
 
-`Promise`<`APIResponse`<`Buffer`\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<`Buffer`\>\>
 
-The image of the crosshair as a Buffer
+The image of the crosshair as a [Buffer](https://nodejs.org/api/buffer.html)
 
 #### Defined in
 
-[index.ts:244](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L244)
+[vapi.ts:157](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L157)
 
 ___
 
 ### getFeaturedItems
 
-▸ **getFeaturedItems**(): `Promise`<`APIResponse`<[`FeaturedItemsResponse`](./modules/types_v1_featured_items.md#featureditemsresponse)\>\>
+▸ **getFeaturedItems**<`T`\>(`__namedParameters?`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`StoreFeaturedResponse`](./modules/types_versions.md#storefeaturedresponse)<`T`\>\>\>
 
 Get all of the featured items in the current valorant store
 
-#### Returns
+#### Type parameters
 
-`Promise`<`APIResponse`<[`FeaturedItemsResponse`](./modules/types_v1_featured_items.md#featureditemsresponse)\>\>
-
-Featured items in the current valorant store
-
-#### Defined in
-
-[index.ts:275](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L275)
-
-___
-
-### getLeaderboard
-
-▸ **getLeaderboard**(`__namedParameters`): `Promise`<`APIResponse`<[`LeaderboardResponse`](./interfaces/types_v2_leaderboard.LeaderboardResponse.md)\>\>
-
-Get the leaderboard of a region
-
-**`Remarks`**
-
-In order for player filtering to work, they must be Immortal or higher
-
-**`Throws`**
-
-TypeError - If both a riotID and puuid are supplied
+| Name | Type |
+| :------ | :------ |
+| `T` | extends ``"v1"`` \| ``"v2"`` |
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `__namedParameters` | `Object` |
-| `__namedParameters.region` | [`Region`](./modules/types_general.md#region) |
+| `__namedParameters.version?` | `T` |
 
 #### Returns
 
-`Promise`<`APIResponse`<[`LeaderboardResponse`](./interfaces/types_v2_leaderboard.LeaderboardResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`StoreFeaturedResponse`](./modules/types_versions.md#storefeaturedresponse)<`T`\>\>\>
 
-Descending order of the highest ranked players. (Immortal and up)
+Featured items in the current valorant store
 
 #### Defined in
 
-[index.ts:404](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L404)
+[vapi.ts:199](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L199)
 
 ___
 
-### getLeaderboardV1
+### getLeaderboard
 
-▸ **getLeaderboardV1**(`__namedParameters`): `Promise`<`APIResponse`<[`V1LeaderboardResponse`](./modules/types_v1_leaderboard.md#v1leaderboardresponse)\>\>
+▸ **getLeaderboard**<`T`\>(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`LeaderboardResponse`](./modules/types_versions.md#leaderboardresponse)<`T`\>\>\>
 
 Get the leaderboard of a region
 
@@ -313,6 +347,12 @@ In order for player filtering to work, they must be Immortal or higher
 **`Throws`**
 
 TypeError - If both a riotID and puuid are supplied
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends ``"v1"`` \| ``"v2"`` |
 
 #### Parameters
 
@@ -327,22 +367,23 @@ TypeError - If both a riotID and puuid are supplied
 | `__namedParameters.riotID.tag` | `string` |
 | `__namedParameters.season?` | \`e${number}a1\` \| \`e${number}a2\` \| \`e${number}a3\` |
 | `__namedParameters.start?` | `number` |
+| `__namedParameters.version?` | `T` |
 
 #### Returns
 
-`Promise`<`APIResponse`<[`V1LeaderboardResponse`](./modules/types_v1_leaderboard.md#v1leaderboardresponse)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`LeaderboardResponse`](./modules/types_versions.md#leaderboardresponse)<`T`\>\>\>
 
 Descending order of the highest ranked players. (Immortal and up)
 
 #### Defined in
 
-[index.ts:424](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L424)
+[vapi.ts:351](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L351)
 
 ___
 
 ### getMMR
 
-▸ **getMMR**(`__namedParameters`): `Promise`<`APIResponse`<[`MMRResponse`](./interfaces/types_v2_mmr.MMRResponse.md)\>\>
+▸ **getMMR**<`T`\>(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`MMRResponse`](./modules/types_versions.md#mmrresponse)<`T`\>\>\>
 
 Gets general info about a players rank by their Riot ID
 
@@ -354,31 +395,43 @@ Gets general info about a players rank by their Riot ID
 - Their PUUID
 - Their peak rank from every season
 
+**`Throws`**
+
+TypeError - If both filter and seasonFilter are set
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends ``"v1"`` \| ``"v2"`` |
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `__namedParameters` | `Object` |
+| `__namedParameters.filter?` | \`e${number}a1\` \| \`e${number}a2\` \| \`e${number}a3\` |
 | `__namedParameters.name` | `string` |
 | `__namedParameters.region` | [`Region`](./modules/types_general.md#region) |
 | `__namedParameters.seasonFilter?` | \`e${number}a1\` \| \`e${number}a2\` \| \`e${number}a3\` |
 | `__namedParameters.tag` | `string` |
+| `__namedParameters.version?` | `T` |
 
 #### Returns
 
-`Promise`<`APIResponse`<[`MMRResponse`](./interfaces/types_v2_mmr.MMRResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`MMRResponse`](./modules/types_versions.md#mmrresponse)<`T`\>\>\>
 
 Information about a players mmr/rank
 
 #### Defined in
 
-[index.ts:453](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L453)
+[vapi.ts:396](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L396)
 
 ___
 
 ### getMMRByPUUID
 
-▸ **getMMRByPUUID**(`__namedParameters`): `Promise`<`APIResponse`<[`MMRResponse`](./interfaces/types_v2_mmr.MMRResponse.md)\>\>
+▸ **getMMRByPUUID**<`T`\>(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`MMRResponse`](./modules/types_versions.md#mmrresponse)<`T`\>\>\>
 
 Gets general info about a players rank by their PUUID
 
@@ -390,30 +443,42 @@ Gets general info about a players rank by their PUUID
 - Their PUUID
 - Their peak rank from every season
 
+**`Throws`**
+
+TypeError - If both filter and seasonFilter are set
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends ``"v1"`` \| ``"v2"`` |
+
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
 | `__namedParameters` | `Object` |
+| `__namedParameters.filter?` | \`e${number}a1\` \| \`e${number}a2\` \| \`e${number}a3\` |
 | `__namedParameters.puuid` | `string` |
 | `__namedParameters.region` | [`Region`](./modules/types_general.md#region) |
 | `__namedParameters.seasonFilter?` | \`e${number}a1\` \| \`e${number}a2\` \| \`e${number}a3\` |
+| `__namedParameters.version?` | `T` |
 
 #### Returns
 
-`Promise`<`APIResponse`<[`MMRResponse`](./interfaces/types_v2_mmr.MMRResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`MMRResponse`](./modules/types_versions.md#mmrresponse)<`T`\>\>\>
 
 Information about a players mmr/rank
 
 #### Defined in
 
-[index.ts:471](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L471)
+[vapi.ts:421](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L421)
 
 ___
 
 ### getMMRHistory
 
-▸ **getMMRHistory**(`__namedParameters`): `Promise`<`APIResponse`<[`MMRHistoryResponse`](./modules/types_v2_mmr_history.md#mmrhistoryresponse)\>\>
+▸ **getMMRHistory**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V2MMRHistoryResponse`](./modules/types_v2_mmr_history.md#v2mmrhistoryresponse)\>\>
 
 Get a list of rr changes of a player by their Riot ID
 
@@ -428,19 +493,19 @@ Get a list of rr changes of a player by their Riot ID
 
 #### Returns
 
-`Promise`<`APIResponse`<[`MMRHistoryResponse`](./modules/types_v2_mmr_history.md#mmrhistoryresponse)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V2MMRHistoryResponse`](./modules/types_v2_mmr_history.md#v2mmrhistoryresponse)\>\>
 
 List of rr changes (recent competitive games)
 
 #### Defined in
 
-[index.ts:370](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L370)
+[vapi.ts:309](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L309)
 
 ___
 
 ### getMMRHistoryByPUUID
 
-▸ **getMMRHistoryByPUUID**(`__namedParameters`): `Promise`<`APIResponse`<[`MMRHistoryResponse`](./modules/types_v2_mmr_history.md#mmrhistoryresponse)\>\>
+▸ **getMMRHistoryByPUUID**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V2MMRHistoryResponse`](./modules/types_v2_mmr_history.md#v2mmrhistoryresponse)\>\>
 
 Get a list of rr changes of a player by their PUUID
 
@@ -454,19 +519,19 @@ Get a list of rr changes of a player by their PUUID
 
 #### Returns
 
-`Promise`<`APIResponse`<[`MMRHistoryResponse`](./modules/types_v2_mmr_history.md#mmrhistoryresponse)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V2MMRHistoryResponse`](./modules/types_v2_mmr_history.md#v2mmrhistoryresponse)\>\>
 
 List of rr changes (recent competitive games)
 
 #### Defined in
 
-[index.ts:381](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L381)
+[vapi.ts:320](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L320)
 
 ___
 
 ### getMatch
 
-▸ **getMatch**(`__namedParameters`): `Promise`<`APIResponse`<[`Match`](./interfaces/types_v3_matches.Match.md)\>\>
+▸ **getMatch**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`Match`](./interfaces/types_v3_matches.Match.md)\>\>
 
 Get information about a match
 
@@ -479,19 +544,19 @@ Get information about a match
 
 #### Returns
 
-`Promise`<`APIResponse`<[`Match`](./interfaces/types_v3_matches.Match.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`Match`](./interfaces/types_v3_matches.Match.md)\>\>
 
 Information about the match
 
 #### Defined in
 
-[index.ts:391](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L391)
+[vapi.ts:330](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L330)
 
 ___
 
 ### getMatches
 
-▸ **getMatches**(`__namedParameters`): `Promise`<`APIResponse`<[`MatchesResponse`](./modules/types_v3_matches.md#matchesresponse)\>\>
+▸ **getMatches**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V3MatchesResponse`](./modules/types_v3_matches.md#v3matchesresponse)\>\>
 
 Gets the most recent 5 matches by a players Riot ID
 
@@ -522,19 +587,19 @@ TypeError - Only if the size parameter is set and not between 1-10
 
 #### Returns
 
-`Promise`<`APIResponse`<[`MatchesResponse`](./modules/types_v3_matches.md#matchesresponse)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V3MatchesResponse`](./modules/types_v3_matches.md#v3matchesresponse)\>\>
 
 Info about a players last 5 matches
 
 #### Defined in
 
-[index.ts:494](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L494)
+[vapi.ts:448](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L448)
 
 ___
 
 ### getMatchesByPUUID
 
-▸ **getMatchesByPUUID**(`__namedParameters`): `Promise`<`APIResponse`<[`MatchesResponse`](./modules/types_v3_matches.md#matchesresponse)\>\>
+▸ **getMatchesByPUUID**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V3MatchesResponse`](./modules/types_v3_matches.md#v3matchesresponse)\>\>
 
 Gets the most recent 5 matches by a players PUUID
 
@@ -564,37 +629,37 @@ TypeError - Only if the size parameter is set and not between 1-10
 
 #### Returns
 
-`Promise`<`APIResponse`<[`MatchesResponse`](./modules/types_v3_matches.md#matchesresponse)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V3MatchesResponse`](./modules/types_v3_matches.md#v3matchesresponse)\>\>
 
 Info about a players last 5 matches
 
 #### Defined in
 
-[index.ts:517](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L517)
+[vapi.ts:471](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L471)
 
 ___
 
 ### getOffers
 
-▸ **getOffers**(): `Promise`<`APIResponse`<[`StoreOffersResponse`](./interfaces/types_v1_store_offers.StoreOffersResponse.md)\>\>
+▸ **getOffers**(): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1StoreOffersResponse`](./interfaces/types_v1_store_offers.V1StoreOffersResponse.md)\>\>
 
 Get a list of all the prices of every skin in the game
 
 #### Returns
 
-`Promise`<`APIResponse`<[`StoreOffersResponse`](./interfaces/types_v1_store_offers.StoreOffersResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1StoreOffersResponse`](./interfaces/types_v1_store_offers.V1StoreOffersResponse.md)\>\>
 
 List of skin prices
 
 #### Defined in
 
-[index.ts:284](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L284)
+[vapi.ts:207](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L207)
 
 ___
 
 ### getRawCompetitiveUpdates
 
-▸ **getRawCompetitiveUpdates**(`__namedParameters`): `Promise`<`APIResponse`<[`RawCompetitiveUpdatesResponse`](./interfaces/types_raw_competitive_updates.RawCompetitiveUpdatesResponse.md)\>\>
+▸ **getRawCompetitiveUpdates**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawCompetitiveUpdatesResponse`](./interfaces/types_raw_competitive_updates.RawCompetitiveUpdatesResponse.md)\>\>
 
 Gets raw data for a players competitive updates (rr changes) from the valorant API. **(Not formatted, use only if you know what you are doing)**
 
@@ -613,19 +678,57 @@ Gets raw data for a players competitive updates (rr changes) from the valorant A
 
 #### Returns
 
-`Promise`<`APIResponse`<[`RawCompetitiveUpdatesResponse`](./interfaces/types_raw_competitive_updates.RawCompetitiveUpdatesResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawCompetitiveUpdatesResponse`](./interfaces/types_raw_competitive_updates.RawCompetitiveUpdatesResponse.md)\>\>
 
 Information about the players rr history
 
 #### Defined in
 
-[index.ts:339](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L339)
+[vapi.ts:261](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L261)
+
+___
+
+### getRawData
+
+▸ **getRawData**<`T`\>(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawResponse`](./modules/types_versions.md#rawresponse)<`T`\>\>\>
+
+Gets raw data from the valorant API. **(Not formatted, use only if you know what you are doing)**
+
+**`Depreciated`**
+
+Use [getRawCompetitiveUpdates](README.md#getrawcompetitiveupdates) [getRawMatchDetails](README.md#getrawmatchdetails) [getRawMatchHistory](README.md#getrawmatchhistory) [getRawMMR](README.md#getrawmmr) instead
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends ``"matchdetails"`` \| ``"matchhistory"`` \| ``"mmr"`` \| ``"competitiveupdates"`` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `__namedParameters` | `Object` |
+| `__namedParameters.queries` | `any` |
+| `__namedParameters.region` | [`Region`](./modules/types_general.md#region) |
+| `__namedParameters.type` | `T` |
+| `__namedParameters.value` | `string` |
+
+#### Returns
+
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawResponse`](./modules/types_versions.md#rawresponse)<`T`\>\>\>
+
+Either match details, a users patch history, a users mmr, or a users past rr changes
+
+#### Defined in
+
+[vapi.ts:294](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L294)
 
 ___
 
 ### getRawMMR
 
-▸ **getRawMMR**(`__namedParameters`): `Promise`<`APIResponse`<[`RawMMRResponse`](./interfaces/types_raw_mmr.RawMMRResponse.md)\>\>
+▸ **getRawMMR**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawMMRResponse`](./interfaces/types_raw_mmr.RawMMRResponse.md)\>\>
 
 Gets raw data for a players mmr from the valorant API. **(Not formatted, use only if you know what you are doing)**
 
@@ -644,19 +747,19 @@ Gets raw data for a players mmr from the valorant API. **(Not formatted, use onl
 
 #### Returns
 
-`Promise`<`APIResponse`<[`RawMMRResponse`](./interfaces/types_raw_mmr.RawMMRResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawMMRResponse`](./interfaces/types_raw_mmr.RawMMRResponse.md)\>\>
 
 Information about the players mmr
 
 #### Defined in
 
-[index.ts:355](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L355)
+[vapi.ts:277](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L277)
 
 ___
 
 ### getRawMatchDetails
 
-▸ **getRawMatchDetails**(`__namedParameters`): `Promise`<`APIResponse`<[`RawMatchDetailsResponse`](./interfaces/types_raw_match_details.RawMatchDetailsResponse.md)\>\>
+▸ **getRawMatchDetails**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawMatchDetailsResponse`](./interfaces/types_raw_match_details.RawMatchDetailsResponse.md)\>\>
 
 Gets raw data for a match from the valorant API. (Not formatted, use only if you know what you are doing)
 
@@ -675,19 +778,19 @@ Gets raw data for a match from the valorant API. (Not formatted, use only if you
 
 #### Returns
 
-`Promise`<`APIResponse`<[`RawMatchDetailsResponse`](./interfaces/types_raw_match_details.RawMatchDetailsResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawMatchDetailsResponse`](./interfaces/types_raw_match_details.RawMatchDetailsResponse.md)\>\>
 
 Information about the match
 
 #### Defined in
 
-[index.ts:307](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L307)
+[vapi.ts:229](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L229)
 
 ___
 
 ### getRawMatchHistory
 
-▸ **getRawMatchHistory**(`__namedParameters`): `Promise`<`APIResponse`<[`RawMatchHistoryResponse`](./interfaces/types_raw_match_history.RawMatchHistoryResponse.md)\>\>
+▸ **getRawMatchHistory**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawMatchHistoryResponse`](./interfaces/types_raw_match_history.RawMatchHistoryResponse.md)\>\>
 
 Gets raw data for a players match history from the valorant API. (Not formatted, use only if you know what you are doing)
 
@@ -706,19 +809,19 @@ Gets raw data for a players match history from the valorant API. (Not formatted,
 
 #### Returns
 
-`Promise`<`APIResponse`<[`RawMatchHistoryResponse`](./interfaces/types_raw_match_history.RawMatchHistoryResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`RawMatchHistoryResponse`](./interfaces/types_raw_match_history.RawMatchHistoryResponse.md)\>\>
 
 Information about the players match history
 
 #### Defined in
 
-[index.ts:323](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L323)
+[vapi.ts:245](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L245)
 
 ___
 
 ### getStatus
 
-▸ **getStatus**(`__namedParameters`): `Promise`<`APIResponse`<[`StatusResponse`](./interfaces/types_v1_status.StatusResponse.md)\>\>
+▸ **getStatus**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1StatusResponse`](./interfaces/types_v1_status.V1StatusResponse.md)\>\>
 
 Will get information about the current maintenances and incidents about a region
 
@@ -731,19 +834,19 @@ Will get information about the current maintenances and incidents about a region
 
 #### Returns
 
-`Promise`<`APIResponse`<[`StatusResponse`](./interfaces/types_v1_status.StatusResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1StatusResponse`](./interfaces/types_v1_status.V1StatusResponse.md)\>\>
 
 Info about undergoing maintenances and incidents in a region of valorant
 
 #### Defined in
 
-[index.ts:294](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L294)
+[vapi.ts:216](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L216)
 
 ___
 
 ### getTranslations
 
-▸ **getTranslations**(`__namedParameters?`): `Promise`<`APIResponse`<[`ContentResponse`](./interfaces/types_v1_content.ContentResponse.md)\>\>
+▸ **getTranslations**(`__namedParameters?`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1ContentResponse`](./interfaces/types_v1_content.V1ContentResponse.md)\>\>
 
 Get all translations for every character, skin, map, ability, spray, charm, player card, player title, and more in the game
 
@@ -756,17 +859,17 @@ Get all translations for every character, skin, map, ability, spray, charm, play
 
 #### Returns
 
-`Promise`<`APIResponse`<[`ContentResponse`](./interfaces/types_v1_content.ContentResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1ContentResponse`](./interfaces/types_v1_content.V1ContentResponse.md)\>\>
 
 #### Defined in
 
-[index.ts:435](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L435)
+[vapi.ts:366](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L366)
 
 ___
 
 ### getVersion
 
-▸ **getVersion**(`__namedParameters`): `Promise`<`APIResponse`<[`VersionResponse`](./interfaces/types_v1_version.VersionResponse.md)\>\>
+▸ **getVersion**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1VersionResponse`](./interfaces/types_v1_version.V1VersionResponse.md)\>\>
 
 Get information about valorant in a region, such as the client version, branch, and server version
 
@@ -779,21 +882,25 @@ Get information about valorant in a region, such as the client version, branch, 
 
 #### Returns
 
-`Promise`<`APIResponse`<[`VersionResponse`](./interfaces/types_v1_version.VersionResponse.md)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1VersionResponse`](./interfaces/types_v1_version.V1VersionResponse.md)\>\>
 
 Information about a regions valorant
 
 #### Defined in
 
-[index.ts:266](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L266)
+[vapi.ts:190](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L190)
 
 ___
 
 ### getWebsite
 
-▸ **getWebsite**(`__namedParameters`): `Promise`<`APIResponse`<[`WebsiteResponse`](./modules/types_v1_website.md#websiteresponse)\>\>
+▸ **getWebsite**(`__namedParameters`): `Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1WebsiteResponse`](./modules/types_v1_website.md#v1websiteresponse)\>\>
 
 Get all announcements from the valorant website of a country
+
+**`Depreciated`**
+
+Use [getAnnouncements](README.md#getannouncements) instead
 
 #### Parameters
 
@@ -804,13 +911,13 @@ Get all announcements from the valorant website of a country
 
 #### Returns
 
-`Promise`<`APIResponse`<[`WebsiteResponse`](./modules/types_v1_website.md#websiteresponse)\>\>
+`Promise`<[`APIResponse`](./interfaces/types_general.APIResponse.md)<[`V1WebsiteResponse`](./modules/types_v1_website.md#v1websiteresponse)\>\>
 
 List of announcements from the valorant website
 
 #### Defined in
 
-[index.ts:256](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L256)
+[vapi.ts:180](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L180)
 
 ___
 
@@ -830,4 +937,4 @@ Must be called before using [rankImages](README.md#rankimages) and [mapImages](R
 
 #### Defined in
 
-[index.ts:142](https://github.com/jameslinimk/unofficial-valorant-api/blob/1ba0fed/package/src/index.ts#L142)
+[vapi.ts:55](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/vapi.ts#L55)

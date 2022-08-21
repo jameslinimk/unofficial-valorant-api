@@ -4,4 +4,4 @@
 
 ### Interfaces
 
-- [VersionResponse](../interfaces/types_v1_version.VersionResponse.md)
+- [V1VersionResponse](../interfaces/types_v1_version.V1VersionResponse.md)
