@@ -28,7 +28,7 @@ Response from API
 
 #### Defined in
 
-[types/general.ts:30](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L30)
+[types/general.ts:30](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L30)
 
 ___
 
@@ -40,7 +40,7 @@ Error object (if there is)
 
 #### Defined in
 
-[types/general.ts:38](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L38)
+[types/general.ts:38](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L38)
 
 ___
 
@@ -52,7 +52,7 @@ Information about current rate limits
 
 #### Defined in
 
-[types/general.ts:34](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L34)
+[types/general.ts:34](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L34)
 
 ___
 
@@ -70,7 +70,7 @@ Response status
 
 #### Defined in
 
-[types/general.ts:26](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L26)
+[types/general.ts:26](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L26)
 
 ___
 
@@ -82,4 +82,4 @@ Original request URL
 
 #### Defined in
 
-[types/general.ts:42](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L42)
+[types/general.ts:42](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L42)

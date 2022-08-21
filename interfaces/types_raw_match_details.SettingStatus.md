@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[types/raw/match-details.ts:93](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L93)
+[types/raw/match-details.ts:93](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/raw/match-details.ts#L93)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:92](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L92)
+[types/raw/match-details.ts:92](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/raw/match-details.ts#L92)

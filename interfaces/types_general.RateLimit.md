@@ -24,7 +24,7 @@ Remaining number of API requests per 60s.
 
 #### Defined in
 
-[types/general.ts:93](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L93)
+[types/general.ts:93](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L93)
 
 ___
 
@@ -40,7 +40,7 @@ In how many seconds (every 60s) your rate limit is going to reset.
 
 #### Defined in
 
-[types/general.ts:99](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L99)
+[types/general.ts:99](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L99)
 
 ___
 
@@ -56,4 +56,4 @@ Number of used API requests per 60s.
 
 #### Defined in
 
-[types/general.ts:87](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/general.ts#L87)
+[types/general.ts:87](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/general.ts#L87)

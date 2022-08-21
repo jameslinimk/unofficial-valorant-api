@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[types/v3-matches.ts:78](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v3-matches.ts#L78)
+[types/v3-matches.ts:78](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v3-matches.ts#L78)
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:232](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v3-matches.ts#L232)
+[types/v3-matches.ts:232](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v3-matches.ts#L232)

@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[types/v1-account.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L13)
+[types/v1-account.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L13)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L16)
+[types/v1-account.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L16)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:17](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L17)
+[types/v1-account.ts:17](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L17)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:18](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L18)
+[types/v1-account.ts:18](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L18)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L14)
+[types/v1-account.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L14)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L11)
+[types/v1-account.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L11)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L12)
+[types/v1-account.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L12)
 
 ___
 
@@ -93,4 +93,4 @@ ___
 
 #### Defined in
 
-[types/v1-account.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-account.ts#L15)
+[types/v1-account.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-account.ts#L15)

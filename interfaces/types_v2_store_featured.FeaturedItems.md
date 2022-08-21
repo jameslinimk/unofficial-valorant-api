@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[types/v1-store-featured.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-store-featured.ts#L14)
+[types/v1-store-featured.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-store-featured.ts#L14)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[types/v1-store-featured.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-store-featured.ts#L15)
+[types/v1-store-featured.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-store-featured.ts#L15)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/v1-store-featured.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-store-featured.ts#L16)
+[types/v1-store-featured.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v1-store-featured.ts#L16)
 
 ___
 
@@ -67,4 +67,4 @@ ___
 
 #### Defined in
 
-[types/v2-store-featured.ts:4](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v2-store-featured.ts#L4)
+[types/v2-store-featured.ts:4](https://github.com/jameslinimk/unofficial-valorant-api/blob/3123117/package/src/types/v2-store-featured.ts#L4)
