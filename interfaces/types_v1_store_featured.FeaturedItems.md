@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[types/v1-store-featured.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v1-store-featured.ts#L14)
+[types/v1-store-featured.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-store-featured.ts#L14)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[types/v1-store-featured.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v1-store-featured.ts#L15)
+[types/v1-store-featured.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-store-featured.ts#L15)
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 #### Defined in
 
-[types/v1-store-featured.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/v1-store-featured.ts#L16)
+[types/v1-store-featured.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/v1-store-featured.ts#L16)

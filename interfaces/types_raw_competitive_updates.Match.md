@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L15)
+[types/raw/competitive-updates.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L15)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L14)
+[types/raw/competitive-updates.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L14)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:5](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L5)
+[types/raw/competitive-updates.ts:5](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L5)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:4](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L4)
+[types/raw/competitive-updates.ts:4](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L4)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L7)
+[types/raw/competitive-updates.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L7)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L10)
+[types/raw/competitive-updates.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L10)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L11)
+[types/raw/competitive-updates.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L11)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L12)
+[types/raw/competitive-updates.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L12)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L13)
+[types/raw/competitive-updates.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L13)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:6](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L6)
+[types/raw/competitive-updates.ts:6](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L6)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:8](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L8)
+[types/raw/competitive-updates.ts:8](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L8)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-[types/raw/competitive-updates.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/competitive-updates.ts#L9)
+[types/raw/competitive-updates.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/competitive-updates.ts#L9)

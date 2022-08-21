@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[types/raw/mmr.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L13)
+[types/raw/mmr.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L13)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L15)
+[types/raw/mmr.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L15)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:18](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L18)
+[types/raw/mmr.ts:18](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L18)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L14)
+[types/raw/mmr.ts:14](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L14)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L11)
+[types/raw/mmr.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L11)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L9)
+[types/raw/mmr.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L9)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L10)
+[types/raw/mmr.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L10)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L12)
+[types/raw/mmr.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L12)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L16)
+[types/raw/mmr.ts:16](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L16)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:8](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L8)
+[types/raw/mmr.ts:8](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L8)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:19](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L19)
+[types/raw/mmr.ts:19](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L19)
 
 ___
 
@@ -137,4 +137,4 @@ ___
 
 #### Defined in
 
-[types/raw/mmr.ts:17](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/mmr.ts#L17)
+[types/raw/mmr.ts:17](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/mmr.ts#L17)

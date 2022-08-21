@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[types/raw/match-details.ts:120](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L120)
+[types/raw/match-details.ts:120](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L120)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:123](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L123)
+[types/raw/match-details.ts:123](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L123)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:113](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L113)
+[types/raw/match-details.ts:113](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L113)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:116](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L116)
+[types/raw/match-details.ts:116](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L116)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:108](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L108)
+[types/raw/match-details.ts:108](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L108)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:124](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L124)
+[types/raw/match-details.ts:124](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L124)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:112](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L112)
+[types/raw/match-details.ts:112](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L112)
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:110](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L110)
+[types/raw/match-details.ts:110](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L110)
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L117)
+[types/raw/match-details.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L117)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:118](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L118)
+[types/raw/match-details.ts:118](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L118)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:119](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L119)
+[types/raw/match-details.ts:119](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L119)
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:115](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L115)
+[types/raw/match-details.ts:115](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L115)
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:121](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L121)
+[types/raw/match-details.ts:121](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L121)
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:114](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L114)
+[types/raw/match-details.ts:114](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L114)
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:107](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L107)
+[types/raw/match-details.ts:107](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L107)
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:109](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L109)
+[types/raw/match-details.ts:109](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L109)
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:111](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L111)
+[types/raw/match-details.ts:111](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L111)
 
 ___
 
@@ -203,4 +203,4 @@ ___
 
 #### Defined in
 
-[types/raw/match-details.ts:122](https://github.com/jameslinimk/unofficial-valorant-api/blob/fe67431/package/src/types/raw/match-details.ts#L122)
+[types/raw/match-details.ts:122](https://github.com/jameslinimk/unofficial-valorant-api/blob/e0f8f42/package/src/types/raw/match-details.ts#L122)
