@@ -27,7 +27,6 @@
 		"entryPointStrategy": "expand",
 		"out": "./doc",
 		"excludeInternal": true,
-		"hideBreadcrumbs": true,
 		"githubPages": false
 	}
 }
