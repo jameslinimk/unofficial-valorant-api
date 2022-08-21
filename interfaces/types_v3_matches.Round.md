@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[types/v3-matches.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L117)
+[types/v3-matches.ts:117](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L117)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:116](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L116)
+[types/v3-matches.ts:116](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L116)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:129](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L129)
+[types/v3-matches.ts:129](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L129)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:115](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L115)
+[types/v3-matches.ts:115](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L115)
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:118](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L118)
+[types/v3-matches.ts:118](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L118)
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:139](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L139)
+[types/v3-matches.ts:139](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L139)
 
 ___
 
@@ -107,4 +107,4 @@ ___
 
 #### Defined in
 
-[types/v3-matches.ts:114](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v3-matches.ts#L114)
+[types/v3-matches.ts:114](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v3-matches.ts#L114)

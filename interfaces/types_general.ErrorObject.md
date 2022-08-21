@@ -43,7 +43,7 @@ Can be any of the following:
 
 #### Defined in
 
-[types/general.ts:74](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L74)
+[types/general.ts:74](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/general.ts#L74)
 
 ___
 
@@ -55,7 +55,7 @@ Error details to help fix the problem
 
 #### Defined in
 
-[types/general.ts:78](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L78)
+[types/general.ts:78](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/general.ts#L78)
 
 ___
 
@@ -67,4 +67,4 @@ Error message
 
 #### Defined in
 
-[types/general.ts:49](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/general.ts#L49)
+[types/general.ts:49](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/general.ts#L49)

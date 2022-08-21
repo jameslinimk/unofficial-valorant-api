@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[types/v1-leaderboard.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-leaderboard.ts#L15)
+[types/v1-leaderboard.ts:15](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-leaderboard.ts#L15)

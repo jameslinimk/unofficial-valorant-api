@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[types/v1-status.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L13)
+[types/v1-status.ts:13](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L13)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L7)
+[types/v1-status.ts:7](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L7)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L10)
+[types/v1-status.ts:10](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L10)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L9)
+[types/v1-status.ts:9](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L9)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L12)
+[types/v1-status.ts:12](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L12)
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L11)
+[types/v1-status.ts:11](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L11)
 
 ___
 
@@ -82,4 +82,4 @@ ___
 
 #### Defined in
 
-[types/v1-status.ts:8](https://github.com/jameslinimk/unofficial-valorant-api/blob/317491a/package/src/types/v1-status.ts#L8)
+[types/v1-status.ts:8](https://github.com/jameslinimk/unofficial-valorant-api/blob/1def087/package/src/types/v1-status.ts#L8)
