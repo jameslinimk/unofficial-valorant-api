@@ -130,7 +130,7 @@ export default class {
 	 * import _VAPI from "unofficial-valorant-api"
 	 * const VAPI = new _VAPI("my super secret token")
 	 * ```
-	 * @param args.token - (optional) The token, if you have one. Get one from the Discord server ({@link https://discord.gg/wXNMnqzvAD})
+	 * @param token - (optional) The token, if you have one. Get one from the Discord server ({@link https://discord.gg/wXNMnqzvAD})
 	 */
     constructor(private token?: string) {}
 
@@ -233,12 +233,12 @@ export default class {
 	 * Load and write a crosshair to crosshair.png
 	 * ```js
 	 * import { writeFileSync } from "fs"
-	 * 
+	 *
 	 * const crosshair = await default.getCrosshair("0;s;1;P;c;5;o;1;d;1;z;3;0b;0;1b;0;S;c;4;o;1")
 	 * writeFileSync("crosshair.png", crosshair.data)
 	 * ```
-	 * @param args.code - Valorant crosshair code
-	 * @param args.size - (optional) Image size (default: `1024`)
+	 * @param code - Valorant crosshair code
+	 * @param size - (optional) Image size (default: `1024`)
 	 * @returns The image of the crosshair as a {@link Buffer}
 	 */
     async getCrosshair({ code, size }: { code: string, size?: number }): Promise<APIResponse<CrosshairResponse>> {
@@ -250,7 +250,7 @@ export default class {
 
     /**
 	 * Get all announcements from the valorant website of a country
-	 * @param args.countryCode - Country code of website
+	 * @param countryCode - Country code of website
 	 * @returns List of announcements from the valorant website
 	 */
     async getWebsite({ countryCode }: { countryCode: "en-us" | "en-gb" | "de-de" | "es-es" | "es-mx" | "fr-fr" | "it-it" | "ja-jp" | "ko-kr" | "pt-br" | "ru-ru" | "tr-tr" | "vi-vn" }): Promise<APIResponse<WebsiteResponse>> {
@@ -260,7 +260,7 @@ export default class {
 
     /**
 	 * Get information about valorant in a region, such as the client version, branch, and server version
-	 * @param args.region - Region of valorant to get info about
+	 * @param region - Region of valorant to get info about
 	 * @returns Information about a regions valorant
 	 */
     async getVersion({ region }: { region: Region }): Promise<APIResponse<VersionResponse>> {
@@ -288,7 +288,7 @@ export default class {
 
     /**
 	 * Will get information about the current maintenances and incidents about a region
-	 * @param args.region - Region to get info about
+	 * @param region - Region to get info about
 	 * @returns Info about undergoing maintenances and incidents in a region of valorant
 	 */
     async getStatus({ region }: { region: Region }): Promise<APIResponse<StatusResponse>> {
@@ -299,9 +299,9 @@ export default class {
     /**
 	 * Gets raw data for a match from the valorant API. (Not formatted, use only if you know what you are doing)
 	 * @see {@link default.getMatch} for an easier response to use
-	 * @param args.matchID - The match ID to get details about
-	 * @param args.region - Region of the match
-	 * @param args.queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MatchDetails_FetchMatchDetails.md documentation}
+	 * @param matchID - The match ID to get details about
+	 * @param region - Region of the match
+	 * @param queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MatchDetails_FetchMatchDetails.md documentation}
 	 * @returns Information about the match
 	 */
     async getRawMatchDetails({ matchID, region, queries }: { matchID: string, region: Region, queries?: any }): Promise<APIResponse<RawMatchDetailsResponse>> {
@@ -315,9 +315,9 @@ export default class {
     /**
 	 * Gets raw data for a players match history from the valorant API. (Not formatted, use only if you know what you are doing)
 	 * @see {@link default.getMatches} for an easier response to use
-	 * @param args.puuid - The match ID to get details about
-	 * @param args.region - Region of the player
-	 * @param args.queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MatchHistory_FetchMatchHistory.md documentation}
+	 * @param puuid - The match ID to get details about
+	 * @param region - Region of the player
+	 * @param queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MatchHistory_FetchMatchHistory.md documentation}
 	 * @returns Information about the players match history
 	 */
     async getRawMatchHistory({ puuid, region, queries }: { puuid: string, region: Region, queries?: any }): Promise<APIResponse<RawMatchHistoryResponse>> {
@@ -331,9 +331,9 @@ export default class {
     /**
 	 * Gets raw data for a players competitive updates (rr changes) from the valorant API. **(Not formatted, use only if you know what you are doing)**
 	 * @see {@link default.getMMRHistory} for an easier response to use
-	 * @param args.puuid - The match ID to get details about
-	 * @param args.region - Region of the player
-	 * @param args.queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MMR_FetchCompetitiveUpdates.md documentation}
+	 * @param puuid - The match ID to get details about
+	 * @param region - Region of the player
+	 * @param queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MMR_FetchCompetitiveUpdates.md documentation}
 	 * @returns Information about the players rr history
 	 */
     async getRawCompetitiveUpdates({ puuid, region, queries }: { puuid: string, region: Region, queries?: any }): Promise<APIResponse<RawCompetitiveUpdatesResponse>> {
@@ -347,9 +347,9 @@ export default class {
     /**
 	 * Gets raw data for a players mmr from the valorant API. **(Not formatted, use only if you know what you are doing)**
 	 * @see {@link default.getMMR} for an easier response to use
-	 * @param args.puuid - The match ID to get details about
-	 * @param args.region - Region of the player
-	 * @param args.queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MMR_FetchPlayer.md documentation}
+	 * @param puuid - The match ID to get details about
+	 * @param region - Region of the player
+	 * @param queries - Extra queries. See {@link https://github.com/techchrism/valorant-api-docs/blob/trunk/docs/PVP%20Endpoints/GET%20MMR_FetchPlayer.md documentation}
 	 * @returns Information about the players mmr
 	 */
     async getRawMMR({ puuid, region, queries }: { puuid: string, region: Region, queries?: any }): Promise<APIResponse<RawMMRResponse>> {
@@ -362,9 +362,9 @@ export default class {
 
     /**
 	 * Get a list of rr changes of a player by their Riot ID
-	 * @param args.name - The Riot ID username of the player
-	 * @param args.tag - The Riot tag username of the player
-	 * @param args.region - The players region
+	 * @param name - The Riot ID username of the player
+	 * @param tag - The Riot tag username of the player
+	 * @param region - The players region
 	 * @return List of rr changes (recent competitive games)
 	 */
     async getMMRHistory({ name, tag, region }: { name: string, tag: string, region: Region }): Promise<APIResponse<MMRHistoryResponse>> {
@@ -374,8 +374,8 @@ export default class {
 
     /**
 	 * Get a list of rr changes of a player by their PUUID
-	 * @param args.puuid - The PUUID of the player
-	 * @param args.region - The players region
+	 * @param puuid - The PUUID of the player
+	 * @param region - The players region
 	 * @return List of rr changes (recent competitive games)
     */
     async getMMRHistoryByPUUID({ puuid, region }: { puuid: string, region: Region }): Promise<APIResponse<MMRHistoryResponse>> {
@@ -385,7 +385,7 @@ export default class {
 
     /**
 	 * Get information about a match
-	 * @param args.matchID - The matchs ID
+	 * @param matchID - The matchs ID
 	 * @returns Information about the match
 	 */
     async getMatch({ matchID }: { matchID: string }): Promise<APIResponse<MatchResponse>> {
@@ -397,7 +397,7 @@ export default class {
 	 * Get the leaderboard of a region
 	 * @remarks
 	 * In order for player filtering to work, they must be Immortal or higher
-	 * @param args.region - Region to get leaderboard from
+	 * @param region - Region to get leaderboard from
 	 * @returns Descending order of the highest ranked players. (Immortal and up)
 	 * @throws {@link TypeError} - If both a riotID and puuid are supplied
 	 */
@@ -410,14 +410,14 @@ export default class {
 	 * Get the leaderboard of a region
 	 * @remarks
 	 * In order for player filtering to work, they must be Immortal or higher
-	 * @param args.region - Region to get leaderboard from
-	 * @param args.start - (optional) Get 1000 leaderboard players starting from the given start value
-	 * @param args.end - (optional) Limit the amount of leaderboard players returned
-	 * @param args.riotID - (optional) Search for a specific player by their Riot ID
-	 * @param args.riotID.name - The Riot IDs username
-	 * @param args.riotID.tag - The Riot IDs tag
-	 * @param args.puuid - (optional) Search for a specific player by their PUUID
-	 * @param args.season - (optional) Get leaderboard from a specific season
+	 * @param region - Region to get leaderboard from
+	 * @param start - (optional) Get 1000 leaderboard players starting from the given start value
+	 * @param end - (optional) Limit the amount of leaderboard players returned
+	 * @param riotID - (optional) Search for a specific player by their Riot ID
+	 * @param riotID.name - The Riot IDs username
+	 * @param riotID.tag - The Riot IDs tag
+	 * @param puuid - (optional) Search for a specific player by their PUUID
+	 * @param season - (optional) Get leaderboard from a specific season
 	 * @returns Descending order of the highest ranked players. (Immortal and up)
 	 * @throws {@link TypeError} - If both a riotID and puuid are supplied
 	 */
@@ -430,7 +430,7 @@ export default class {
 
     /**
 	 * Get all translations for every character, skin, map, ability, spray, charm, player card, player title, and more in the game
-	 * @param args.locale - If this is set, instead of all translations, it will return just translations for this language
+	 * @param locale - If this is set, instead of all translations, it will return just translations for this language
 	 */
     async getTranslations({ locale }: { locale?: Locale } = {}): Promise<APIResponse<ContentResponse>> {
         return this.fetch<ContentResponse>("v1/content", { locale });
@@ -444,10 +444,10 @@ export default class {
 	 * - RR change on their last game
 	 * - Their PUUID
 	 * - Their peak rank from every season
-	 * @param args.name - The Riot ID username of the player
-	 * @param args.tag - The Riot ID tag of the player
-	 * @param args.region - The region of the player
-	 * @param args.seasonFilter - Filter results based on episode and act
+	 * @param name - The Riot ID username of the player
+	 * @param tag - The Riot ID tag of the player
+	 * @param region - The region of the player
+	 * @param seasonFilter - Filter results based on episode and act
 	 * @returns Information about a players mmr/rank
 	 */
     async getMMR({ name, tag, region, seasonFilter }: { name: string, tag: string, region: Region, seasonFilter?: Season }): Promise<APIResponse<MMRResponse>> {
@@ -463,9 +463,9 @@ export default class {
 	 * - RR change on their last game
 	 * - Their PUUID
 	 * - Their peak rank from every season
-	 * @param args.puuid - The PUUID of the player
-	 * @param args.region - The region of the player
-	 * @param args.seasonFilter - Filter results based on episode and act
+	 * @param puuid - The PUUID of the player
+	 * @param region - The region of the player
+	 * @param seasonFilter - Filter results based on episode and act
 	 * @returns Information about a players mmr/rank
 	 */
     async getMMRByPUUID({ puuid, region, seasonFilter }: { puuid: string, region: Region, seasonFilter?: Season }): Promise<APIResponse<MMRResponse>> {
@@ -482,12 +482,12 @@ export default class {
 	 * 	- Information about every player including their PUUID, Riot ID, kills, ability usage, etc
 	 * 	- Information about every round in the match such as plant/defuse info, etc
 	 * 	- Information about every kill in the game including killer, victim, assist, etc
-	 * @param args.name - The Riot ID username of the player
-	 * @param args.tag - The Riot ID tag of the player
-	 * @param args.region - The region of the player
-	 * @param args.gamemodeFilter - Filter results based on gamemode
-	 * @param args.mapFilter - Filter results based on map
-	 * @param args.size - Return a specific amount of matches (1-10)
+	 * @param name - The Riot ID username of the player
+	 * @param tag - The Riot ID tag of the player
+	 * @param region - The region of the player
+	 * @param gamemodeFilter - Filter results based on gamemode
+	 * @param mapFilter - Filter results based on map
+	 * @param size - Return a specific amount of matches (1-10)
 	 * @returns Info about a players last 5 matches
 	 * @throws {@link TypeError} - Only if the size parameter is set and not between 1-10
 	*/
@@ -506,11 +506,11 @@ export default class {
 	 * 	- Information about every player including their PUUID, Riot ID, kills, ability usage, etc
 	 * 	- Information about every round in the match such as plant/defuse info, etc
 	 * 	- Information about every kill in the game including killer, victim, assist, etc
-	 * @param args.puuid - The PUUID username of the player
-	 * @param args.region - The region of the player
-	 * @param args.gamemodeFilter - Filter results based on gamemode
-	 * @param args.mapFilter - Filter results based on map
-	 * @param args.size - Return a specific amount of matches (1-10)
+	 * @param puuid - The PUUID username of the player
+	 * @param region - The region of the player
+	 * @param gamemodeFilter - Filter results based on gamemode
+	 * @param mapFilter - Filter results based on map
+	 * @param size - Return a specific amount of matches (1-10)
 	 * @returns Info about a players last 5 matches
 	 * @throws {@link TypeError} - Only if the size parameter is set and not between 1-10
 	*/
@@ -528,9 +528,9 @@ export default class {
 	 * - Their region
 	 * - Their account level
 	 * - Their current card
-	 * @param args.name - The Riot ID username of the player
-	 * @param args.tag - The Riot ID tag of the player
-	 * @param args.force - Force data update?
+	 * @param name - The Riot ID username of the player
+	 * @param tag - The Riot ID tag of the player
+	 * @param force - Force data update?
 	 * @return General information on a players profile
 	 */
     async getAccount({ name, tag, force }: { name: string, tag: string, force?: boolean }): Promise<APIResponse<AccountResponse>> {
@@ -546,8 +546,8 @@ export default class {
 	 * - Their region
 	 * - Their account level
 	 * - Their current card
-	 * @param args.puuid The PUUID of the player
-	 * @param args.force Force data update?
+	 * @param puuid The PUUID of the player
+	 * @param force Force data update?
 	 * @return General information on a players profile
 	*/
     async getAccountByPUUID({ puuid, force }: { puuid: string, force?: boolean }): Promise<APIResponse<AccountResponse>> {
