@@ -1,9 +1,9 @@
-type BaseRank = "Iron" | "Bronze" | "Silver" | "Gold" | "Platinum" | "Diamond" | "Ascendant" | "Immortal";
-type SubRank = "1" | "2" | "3";
+export type BaseRank = "Iron" | "Bronze" | "Silver" | "Gold" | "Platinum" | "Diamond" | "Ascendant" | "Immortal";
+export type SubRank = "1" | "2" | "3";
 export type Rank = `${BaseRank} ${SubRank}` | "Radiant" | "Unrated";
 
-type Episodes = number;
-type Acts = 1 | 2 | 3;
+export type Episodes = number;
+export type Acts = 1 | 2 | 3;
 export type Season = `e${Episodes}a${Acts}`;
 
 export type Mode = "Escalation" | "Spikerush" | "Deathmatch" | "Competitive" | "Unrated" | "Replication" | "Custom" | "Newmap" | "Snowball";

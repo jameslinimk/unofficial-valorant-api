@@ -20,7 +20,7 @@ import type { MMRResponse } from "./types/v2-mmr";
 import type { MMRHistoryResponse } from "./types/v2-mmr-history";
 import type { MatchesResponse } from "./types/v3-matches";
 
-interface APIResponse<dataType> {
+export interface APIResponse<dataType> {
     /**
 	 * Response status
 	 * @remarks
@@ -47,7 +47,7 @@ interface APIResponse<dataType> {
     url: string;
 }
 
-interface ErrorObject {
+export interface ErrorObject {
     /**
 	 * Error message
 	 */
@@ -83,7 +83,7 @@ interface ErrorObject {
     details: string;
 }
 
-interface RateLimit {
+export interface RateLimit {
     /**
 	 * Number of used API requests per 60s.
 	 * @remarks
